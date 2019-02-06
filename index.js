@@ -3,7 +3,7 @@ const os = require('os');
 const express = require('express');
 const app = express();
 const applicationName = process.env.DUMMY_NAME || "Some random app";
-const version = "1";
+const version = "2";
 
 app.get('/', function (req, res) {
     res.set('Content-Type', 'application/json');
